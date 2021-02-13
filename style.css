@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(44, 248, 255);
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 20px 4px black;
+    background-color: rgb(255, 140, 217);
+}
+.ups{
+    position: absolute;
+    background-color: transparent !important;
+    top: 40px;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+.nariz-container{
+    position: absolute;
+    top: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 2px;
+    z-index: 3;
+    align-items: center;
+}
+.nariz-container img{
+    width: auto;
+    height: 33px;
+}
+.btn{
+    position: absolute;
+    color: rgb(255, 94, 94);
+    font-size: 47px;
+    z-index: 1000;
+    top: 44px;
+    right: 32px;
+    cursor: pointer;
+}
+
+
+/* Modal */
+.contenedor-modal{
+    background-color: pink;
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0px 0px 15px 3px black;
+    text-align: center;
+}
+.contenedor-modal h3{
+    font-size: 30px;
+    display: inline-block;
+    width: 200px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(32, 30, 30);
+    
+}
